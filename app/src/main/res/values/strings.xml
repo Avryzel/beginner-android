@@ -1,3 +1,45 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Growth Bookcase</string>
+
+    <string name="books_name">Books Name</string>
+    <string name="description">Books Description</string>
+
+    <string-array name="data_name">
+        <item>Atomic Habits</item>
+        <item>The 7 Habits of Highly Effective People</item>
+        <item>Deep Work</item>
+        <item>The Power of Now</item>
+        <item>Think and Grow Rich</item>
+        <item tools:ignore="StringEscaping">Man's Search for Meaning</item>
+        <item>Mindset</item>
+        <item>Essentialism</item>
+        <item>The Subtle Art of Not Giving a F*ck</item>
+        <item>Start With Why</item>
+    </string-array>
+
+    <string-array name="data_description_detail">
+        <item>This comprehensive, practical guide by James Clear shows how to build good habits and break bad ones using the Four Laws of Behavior Change. It argues that meaningful results come from making small, incremental changes (atomic habits), emphasizing how improving by just 1% every day leads to remarkable long-term growth. The book provides specific, actionable frameworks for designing your environment and tracking your progress.</item>
+        <item tools:ignore="StringEscaping">Stephen Covey's classic presents a principle-centered approach to effectiveness, defining seven habits that focus on fairness, integrity, and human dignity. The habits are broken down into three stages: Dependence, Independence, and Interdependence. Mastering these stages helps readers shift their paradigm from external focus to internal character development for both personal and professional success.</item>
+        <item>Cal Newport argues that the ability to focus without distraction on a cognitively demanding task is a skill that must be cultivated in the modern, distracted economy. The book provides actionable advice and philosophical defense for achieving "Deep Work," leading to the creation of meaningful results in less time. This skill is crucial for maintaining productivity in complex fields like software development.</item>
+        <item>Eckhart Tolle offers a spiritual guide emphasizing the importance of living fully in the present moment to overcome suffering caused by attachment to the past and worry about the future. It introduces the concept of the "pain body" and provides techniques for accessing the stillness and inner peace that exists outside of mind-made time. This book is influential in stress management and mindfulness practices.</item>
+        <item tools:ignore="StringEscaping">Napoleon Hill's iconic book, published in 1937, focuses on the "secrets" to personal and financial success by examining the habits and philosophies of successful individuals in history. It presents a 13-step philosophy designed to help readers harness the power of their mind to translate desire into wealth. The core message revolves around the power of definite purpose and persistence.</item>
+        <item>Viktor Frankl, a psychiatrist and Holocaust survivor, reflects on how finding purpose and meaning in life, even amidst intense suffering, is the primary motivational force for human survival. He introduces **Logotherapy**, a form of existential analysis focused on finding meaning. The book serves as both a powerful memoir and a profound psychological reflection on resilience and human spirit.</item>
+        <item>Carol Dweck, a Stanford psychologist, explores the power of the **growth mindset** (the belief that abilities can be developed) versus the fixed mindset (the belief that abilities are static). She shows how our mindset profoundly affects our achievement in every area of life—work, school, sports, and relationships—and how parents and teachers can foster a growth mindset in children.</item>
+        <item tools:ignore="StringEscaping">Greg McKeown presents a systematic discipline for determining what is absolutely essential and eliminating everything that is not. Essentialism is not about how to get more things done; it's about how to get the *right* things done. The book encourages readers to reclaim control over their choices by learning how to say "No" to non-essentials and focus their energy where it matters most.</item>
+        <item>Mark Manson offers a counterintuitive approach to living a good life, arguing that happiness comes from solving problems and choosing what truly matters to care about. The book encourages readers to prioritize their values and only give their emotional energy to things that align with their personal mission, moving away from a constant pursuit of positivity and external validation.</item>
+        <item>Simon Sinek explains the concept of "The Golden Circle," emphasizing the power of starting with your purpose ("Why") before focusing on "How" and "What." The book studies leaders who inspire action, showing that people are motivated by purpose, not product. It's a key text for leadership, motivation, and establishing a strong personal brand.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+    </string-array>
 </resources>

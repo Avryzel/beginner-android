@@ -31,15 +31,15 @@
     </string-array>
 
     <string-array name="data_photo">
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/atomic_habits</item>
+        <item>@drawable/seven_habits</item>
+        <item>@drawable/deep_work</item>
+        <item>@drawable/power_of_now</item>
+        <item>@drawable/think_grow_rich</item>
+        <item>@drawable/man_search_meaning</item>
+        <item>@drawable/mindset</item>
+        <item>@drawable/essentialism</item>
+        <item>@drawable/subtle_art</item>
+        <item>@drawable/start_with_why</item>
     </string-array>
 </resources>

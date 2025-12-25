@@ -3,6 +3,7 @@
 
     <string name="books_name">Books Name</string>
     <string name="description">Books Description</string>
+    <string name="about">About</string>
 
     <string-array name="data_name">
         <item>Atomic Habits</item>

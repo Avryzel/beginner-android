@@ -1,47 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/detail_view"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center">
+    android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/detail_image"
-        android:layout_width="250dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="64dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintDimensionRatio="2:3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription,MissingConstraints"
-        tools:src="@drawable/ic_launcher_background" />
-
-    <TextView
-        android:id="@+id/detail_title"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/detail_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/detail_image"
-        app:layout_constraintStart_toStartOf="@+id/detail_image"
-        app:layout_constraintTop_toBottomOf="@+id/detail_image"
-        tools:ignore="MissingConstraints"
-        tools:text="Books Name" />
+        android:layout_gravity="center">
 
-    <TextView
-        android:id="@+id/detail_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/detail_image"
-        app:layout_constraintStart_toStartOf="@+id/detail_image"
-        app:layout_constraintTop_toBottomOf="@+id/detail_title"
-        tools:ignore="MissingConstraints"
-        tools:text="Books Description" />
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="250dp"
+            android:layout_height="370dp"
+            android:layout_marginTop="64dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="2:3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,MissingConstraints"
+            tools:src="@drawable/ic_launcher_background" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/detail_image"
+            app:layout_constraintStart_toStartOf="@+id/detail_image"
+            app:layout_constraintTop_toBottomOf="@+id/detail_image"
+            tools:ignore="MissingConstraints"
+            tools:text="Books Name" />
+
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title"
+            tools:ignore="MissingConstraints"
+            tools:text="Books Description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

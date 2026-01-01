@@ -31,7 +31,7 @@
         <item>Simon Sinek explains the concept of "The Golden Circle," emphasizing the power of starting with your purpose ("Why") before focusing on "How" and "What." The book studies leaders who inspire action, showing that people are motivated by purpose, not product. It\'s a key text for leadership, motivation, and establishing a strong personal brand.</item>
     </string-array>
 
-    <string-array name="data_photo">
+    <integer-array name="data_photo">
         <item>@drawable/atomic_habits</item>
         <item>@drawable/seven_habits</item>
         <item>@drawable/deep_work</item>
@@ -42,5 +42,5 @@
         <item>@drawable/essentialism</item>
         <item>@drawable/subtle_art</item>
         <item>@drawable/start_with_why</item>
-    </string-array>
+    </integer-array>
 </resources>

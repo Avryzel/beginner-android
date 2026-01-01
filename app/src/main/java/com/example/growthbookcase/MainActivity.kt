@@ -1,5 +1,6 @@
 package com.example.growthbookcase
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
@@ -44,5 +45,17 @@ class MainActivity : AppCompatActivity() {
         rvBooks.layoutManager = LinearLayoutManager(this)
         val listBookAdapter = ListBookAdapter(list)
         rvBooks.adapter = listBookAdapter
+
+        listBookAdapter.setOnItemClickCallback(object : ListBookAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Book) {
+                showSelectedBook(data)
+            }
+        })
+    }
+
+    private fun showSelectedBook(book: Book) {
+        val intentDetail = Intent(this@MainActivity, DetailActivity::class.java)
+        intentDetail.putExtra(DetailActivity.KEY_BOOK, book)
+        startActivity(intentDetail)
     }
 }

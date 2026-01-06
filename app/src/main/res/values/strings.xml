@@ -4,6 +4,9 @@
     <string name="books_name">Books Name</string>
     <string name="description">Books Description</string>
     <string name="about">About</string>
+    <string name="nickname">Avryzel Alifian Hakim</string>
+    <string name="email">avryzelalifian@gmail.com</string>
+    <string name="profile_image">profile image</string>
 
     <string-array name="data_name">
         <item>Atomic Habits</item>

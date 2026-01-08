@@ -7,6 +7,7 @@
     <string name="nickname">Avryzel Alifian Hakim</string>
     <string name="email">avryzelalifian@gmail.com</string>
     <string name="profile_image">profile image</string>
+    <string name="share_title">Share</string>
 
     <string-array name="data_name">
         <item>Atomic Habits</item>

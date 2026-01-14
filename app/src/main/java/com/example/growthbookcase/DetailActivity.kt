@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.appbar.MaterialToolbar
 
 class DetailActivity : AppCompatActivity() {
     companion object {
@@ -19,6 +20,9 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
+
+        val toolbar = findViewById<MaterialToolbar>(R.id.detail_toolbar)
+        setSupportActionBar(toolbar)
 
         book = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(KEY_BOOK, Book::class.java)

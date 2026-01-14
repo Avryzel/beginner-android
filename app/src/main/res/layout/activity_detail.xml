@@ -10,6 +10,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/detail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="?attr/colorOnPrimary" />
+
         <ImageView
             android:id="@+id/detail_image"
             android:layout_width="250dp"
@@ -28,9 +38,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="@+id/detail_image"
             app:layout_constraintStart_toStartOf="@+id/detail_image"
             app:layout_constraintTop_toBottomOf="@+id/detail_image"
